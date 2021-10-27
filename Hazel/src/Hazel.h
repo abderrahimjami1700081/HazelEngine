@@ -6,6 +6,6 @@
 
 // --------------- Entry point -----------
 
+#include "Hazel/Log.h"
 #include "Hazel/Entrytpoint.h"
-
 // --------------- -----------------------

@@ -11,3 +11,4 @@
 	#error Hazel Engine only supports Windows
 #endif // HAZEL_PLATFORM_WINDOWS
 
+#define BIT(x) (1 << x)

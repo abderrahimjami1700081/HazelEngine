@@ -18,6 +18,9 @@ outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader = "hzpch.h"
+	pchsource = "Hazel/src/hzpch.cpp"
+
 	files 
 	{
 		"%{prj.name}/src/**.h",

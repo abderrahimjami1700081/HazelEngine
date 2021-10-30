@@ -1,7 +1,5 @@
 #pragma once
 #include "Event.h"
-
-#include <sstream>
 namespace Hazel {
 	class HAZEL_API WindowResizedEvent : public Event
 	{

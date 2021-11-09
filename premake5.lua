@@ -67,16 +67,21 @@ project "Hazel"
 
 	filter "configurations:Debug"
 		defines "HZ_DEBUG"
+		buildoptions "/MDd"
 		symbols "On"
 
 	filter "configurations:Release"
 		defines "HZ_RELEASE"
 		optimize "On"
+		buildoptions "/MD"
+
 
 	filter "configurations:Dist"
 		defines "HZ_DIST"
 		optimize "On"
+		buildoptions "/MD"
 
+		
 project "SandboxApp"
 	location "SandboxApp"
 	kind "ConsoleApp"
